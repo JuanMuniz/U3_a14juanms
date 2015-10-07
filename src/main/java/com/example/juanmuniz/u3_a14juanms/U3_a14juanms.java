@@ -4,13 +4,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class U3_a14juanms extends AppCompatActivity {
+
+    private Button botonMulti;
+    private Button botonDatos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_u3_a14juanms);
+
+        botonMulti=(Button) findViewById(R.id.botonDTB);
+        botonDatos=(Button) findViewById(R.id.botonDatos);
     }
 
     @Override
