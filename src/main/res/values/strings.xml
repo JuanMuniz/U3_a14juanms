@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">U3_a14juanms</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="datos_telefono_buscador"> DATOS/TELEFONO/BUSCADOR </string>
+    <string name="datos"> DATOS </string>
+    <string name="title_activity_activity_secundaria__u3">Activity_secundaria_U3</string>
+    <string name="cadea_telefono"> Introduce a cadea a buscar e o telefono</string>
+    <string name="pechar">PECHAR</string>
+</resources>
