@@ -2,34 +2,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.juanmuniz.u3_a14juanms.Activity_secundaria_U3"
-    android:orientation="vertical">
+    tools:context="com.example.juanmuniz.u3_a14juanms.Activity_secundaria_U3">
 
     <EditText
-        android:saveEnabled="true"
         android:id="@+id/cadea"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/cadea" />
+        android:hint="@string/cadea"
+        android:saveEnabled="true" />
 
     <EditText
-        android:saveEnabled="true"
         android:id="@+id/telefono"
-        android:inputType="phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/telefono" />
+        android:hint="@string/telefono"
+        android:inputType="phone"
+        android:saveEnabled="true" />
 
     <Button
-        android:onClick="cerrarSec"
         android:id="@+id/btnPechar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:onClick="cerrarSec"
         android:text="@string/pechar" />
 
 
